@@ -1,0 +1,7 @@
+The elevator has a list of possible floors, a link to the current floor (where it is located), a link to the floor
+where the passenger is (when the passenger presses the call button, he gives this information). The engine has a 
+link to the current state (breakdown or serviceability), the doors have a link to the current state (breakdown or 
+serviceability) and a link to whether they are open or not. The person has a link to the button that they click. 
+Further, the steps of the elevator movement follow in stages (on the way, the doors open, the doors close, 
+the elevator goes down or up). Also, if a person presses a button with a non-existent floor, the elevator will
+write about it. Also, the elevator will warn you if the engine or doors are broken.
